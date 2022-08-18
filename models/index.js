@@ -18,7 +18,7 @@ Comment.belongsTo(User, {
 });
 
 module.exports = {
-  user,
-  comment,
-  post
+  User,
+  Comment,
+  Post
 };
